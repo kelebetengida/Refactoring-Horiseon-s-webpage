@@ -1,8 +1,10 @@
+/*Universal selctor which controls the entire websites content box size.*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+/*Background color for the body belowe the image.*/
 
 body {
     background-color: #d9dcd6;
@@ -18,9 +20,6 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-.header h1 .seo {
     color: #d9dcd6;
 }
 
@@ -74,7 +73,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Controls the content box of the side box of the webpage.*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -161,29 +160,12 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
 
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
